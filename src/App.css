@@ -58,7 +58,7 @@ body {
 
 .main-container {
   width: 100%;
-  height: 450px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,4 +86,50 @@ body {
 .section-container {
   width: 100%;
   height: 100vh;
+  background-color: #6b728e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-container h2 {
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 50px;
+  color: aliceblue;
+}
+
+.section-container__content {
+  width: 100%;
+  text-align: center;
+}
+
+.section-container__content iframe {
+  width: 95%;
+  height: 500px;
+}
+
+.contact-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container h2 {
+  font-size: 55px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.footer-container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
 }

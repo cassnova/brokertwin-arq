@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar.jsx";
+import Contact from "./components/Contact.jsx";
 
 function App() {
   return (
@@ -26,20 +27,18 @@ function App() {
         </div>
       </main>
       <section className="section-container">
+        <h2>CASAS</h2>
         <div className="section-container__content">
           <iframe src="https://twinmotion.unrealengine.com/presentation/YeAKQaIeTJV1WJty?embed"></iframe>
-          {/* <div className="twinmotion-embed-wrapper">
-            <iframe
-              style="height: 100%; width: 100%; min-height: 375px; min-width: 375px;"
-              title="Embedded presentation 'Presentation1'"
-              allow="fullscreen; gyroscope; accelerometer; magnetometer; execution-while-out-of-viewport; execution-while-not-rendered;"
-              mozallowfullscreen="true"
-              webkitallowfullscreen="true"
-              src="https://twinmotion.unrealengine.com/presentation/YeAKQaIeTJV1WJty?embed"
-            ></iframe>
-          </div> */}
         </div>
       </section>
+      <div className="contact-container">
+        <h2>CONTACTO</h2>
+        <Contact />
+      </div>
+      <footer className="footer-container">
+        <p>Todos los derechos reservados.</p>
+      </footer>
     </>
   );
 }
