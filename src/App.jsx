@@ -28,6 +28,12 @@ function App() {
       </main>
       <section className="section-container">
         <h2>CASAS</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam,
+          enim, autem totam illo impedit tenetur deserunt magni, harum modi
+          repellendus velit? A voluptatum, veritatis quia quas labore tenetur
+          provident?
+        </p>
         <div className="section-container__content">
           <iframe src="https://twinmotion.unrealengine.com/presentation/YeAKQaIeTJV1WJty?embed"></iframe>
         </div>
